@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+}
+
+body,
+div,
+h1,
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Audiowide";
+	color: #daa520;
+	background-color: #211c40;
+	height: 100dvh;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100dvh;
+	align-items: center;
+	justify-content: center;
+}
+
+.entrar {
+	width: 12.5rem;
+	height: 3.125rem;
+	background-color: #211c40;
+	color: #daa520;
+	font-family: "Audiowide";
+}
