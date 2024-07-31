@@ -10,11 +10,19 @@ h2 {
 	padding: 0;
 }
 
+h1,
+h2 {
+	text-shadow: 1px 1px 2px black, 0 0 5px rgb(22, 22, 120), 0 0 10px rgb(0, 0, 0);
+}
+
 body {
 	font-family: "Audiowide";
 	color: #daa520;
 	background-color: #211c40;
 	height: 100dvh;
+	background-image: url("./images/teclado.jpg");
+	background-size: cover;
+	background-blend-mode: overlay;
 }
 
 .container {
@@ -28,7 +36,15 @@ body {
 .entrar {
 	width: 12.5rem;
 	height: 3.125rem;
-	background-color: #211c40;
+	background-color: #00008b;
 	color: #daa520;
 	font-family: "Audiowide";
+	margin: 20px;
+	font-weight: 900;
+	border: 1px solid #daa520;
+	box-shadow: 2px 2px 20px #daa520;
+}
+
+.imagen {
+	mix-blend-mode: luminosity;
 }
